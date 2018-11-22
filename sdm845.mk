@@ -85,6 +85,10 @@ PRODUCT_PACKAGES += \
     rcs_service_api \
     rcs_service_api.xml
 
+# SnapdragonCamera
+PRODUCT_PACKAGES += \
+    SnapdragonCamera
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
