@@ -89,9 +89,11 @@ PRODUCT_PACKAGES += \
     rcs_service_api \
     rcs_service_api.xml
 
-# SnapdragonCamera
+# Snap libs (we not building Snap cam but i want to use it, so lets build its deps)
 PRODUCT_PACKAGES += \
-    SnapdragonCamera
+    libjni_snapcammosaic \
+    libjni_snapcamtinyplanet \
+    libjni_imageutil
 
 # Telephony
 PRODUCT_PACKAGES += \
