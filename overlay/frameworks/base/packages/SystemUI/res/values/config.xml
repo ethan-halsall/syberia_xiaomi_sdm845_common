@@ -30,6 +30,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 -->
 <resources>
+    <dimen name="rounded_corner_radius">4dp</dimen>
+    <dimen name="rounded_corner_content_padding">8dp</dimen>
+    
     <!-- Enable doze mode -->
     <bool name="doze_display_state_supported">true</bool>
 </resources>
