@@ -73,10 +73,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
-# OTA
-PRODUCT_PACKAGES += \
-    CitrusOTA
-
 # Power
 PRODUCT_PACKAGES += \
     power.qcom
