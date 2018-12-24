@@ -118,3 +118,11 @@ PRODUCT_PACKAGES += \
     $(LOCAL_PATH)/configs/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
     $(LOCAL_PATH)/configs/hostapd.accept:system/etc/hostapd/hostapd.accept \
     $(LOCAL_PATH)/configs/hostapd.deny:system/etc/hostapd/hostapd.deny \
+
+# Wi-Fi Display
+PRODUCT_PACKAGES += \
+    libnl \
+    vendor.display.config@1.0
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
